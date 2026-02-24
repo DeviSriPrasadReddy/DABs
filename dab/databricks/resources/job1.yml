@@ -6,7 +6,7 @@ resources:
         - task_key: task1
           notebook_task:
             notebook_path: ../src/Test
-              notebook
+              notebook.ipynb
             source: WORKSPACE
           environment_key: task1_environment
       queue:
