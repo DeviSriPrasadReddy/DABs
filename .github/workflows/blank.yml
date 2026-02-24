@@ -24,7 +24,7 @@ jobs:
       # This uses the secrets you'll set up in GitHub
       - name: Deploy Bundle -t prod
         working-directory: dab
-        run: databricks bundle deploy
+        run: databricks bundle deploy -t prod
         env:
           DATABRICKS_HOST: https://dbc-9e0301e8-9431.cloud.databricks.com/
           DATABRICKS_TOKEN: dapi6dc185023b293855b3a7705eb8f8c283
