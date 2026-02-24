@@ -1,0 +1,18 @@
+resources:
+  jobs:
+    New_Job_Feb_24_2026_06_52_PM:
+      name: New Job Feb 24, 2026, 06:52 PM
+      tasks:
+        - task_key: task1
+          notebook_task:
+            notebook_path: ../src/Test
+              notebook
+            source: WORKSPACE
+          environment_key: task1_environment
+      queue:
+        enabled: true
+      environments:
+        - environment_key: task1_environment
+          spec:
+            environment_version: "4"
+      performance_target: PERFORMANCE_OPTIMIZED
