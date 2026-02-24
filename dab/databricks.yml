@@ -18,7 +18,7 @@ targets:
   prod:
     mode: production
     workspace:
-      default: true
+      # default: true
       host: https://dbc-9e0301e8-9431.cloud.databricks.com
       # We always use /Users/devisri1081@outlook.com for all resources to make sure we only have a single copy.
       root_path: /Users/devisri1081@outlook.com/.bundle/${bundle.name}/${bundle.target}
