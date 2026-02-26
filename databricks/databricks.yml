@@ -4,7 +4,6 @@ bundle:
 
 include:
   - resources/*.yml
-  - databricks/resources/job1.yml
 
 targets:
   # The 'dev' target, for development purposes. This target is the default.
